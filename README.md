@@ -28,3 +28,6 @@ Source: General contact for government statistics(e-Stat)（https://www.e-stat.g
 # ダンプファイルのインポート方法 / How to import dmp file
 mysql> use ""Database Name""<br>
 mysql> source hyogo.dmp
+
+# 免責事項
+本データを用いて行う一切の行為について、いかなる責任も負いません。本データを使用したことによって被った損害、損失に対して一切の責任を負いません。
