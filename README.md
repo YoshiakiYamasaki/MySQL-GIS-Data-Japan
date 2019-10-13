@@ -1,8 +1,8 @@
 # MySQL-GIS-Data-Japan
-MySQLで使えるGISデータの配布用リポジトリ
+MySQLで使えるGISデータの配布用リポジトリ<br>
 　- e-Statで配布されている境界データのシェープファイルをogr2ogrを使ってMySQLに取り込んで、Spatialインデックスを追加したもの
  
- Repository for distributing Japanese GIS Data which is made from e-Stat's Shape files for MySQL
+ Repository for distributing Japanese GIS Data which is made from e-Stat's Shape files for MySQL<br>
 　- Shape file of boundary data distributed with e-Stat is imported into MySQL using ogr2ogr and added Spatial index
 
 
@@ -26,5 +26,5 @@ Source: General contact for government statistics(e-Stat)（https://www.e-stat.g
   mysql> ALTER TABLE geotest.h27ka28_utf8 RENAME hyogo;
 
 # ダンプファイルのインポート方法 / How to import dmp file
-mysql> use <<Database Name>>
+mysql> use ""Database Name""
 mysql> source hyogo.dmp
