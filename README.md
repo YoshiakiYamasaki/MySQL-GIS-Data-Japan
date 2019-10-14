@@ -1,3 +1,5 @@
+[test](https://github.com/YoshiakiYamasaki/MySQL-GIS-Data-Japan-eStat)
+
 # MySQL-GIS-Data-Japan
 MySQLで使えるGISデータの配布用リポジトリ<br>
 　- e-Statで配布されている境界データのシェープファイルをogr2ogrを使ってMySQLに取り込んで、Spatialインデックスを追加したもの
